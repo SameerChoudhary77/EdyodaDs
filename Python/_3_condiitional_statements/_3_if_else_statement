@@ -1,0 +1,31 @@
+no1 = 90
+no2  = 78
+
+greater_than = no1 > no2
+print(greater_than)
+
+if no1 > no2:
+    print("If part: ",no1, "is greatert than", no2)
+else:
+    print("Else part: ",no2,"is greater than",no1)
+    
+no1 = 9                      
+no2  = 78
+
+greater_than = no1 > no2
+print(greater_than)
+
+if no1 > no2:
+    print("If part: ",no1, "is greatert than", no2)
+else:
+    print("Else part: ",no2,"is greater than",no1)
+
+
+    # practice sum
+    # take input from user and check if it is positive or negative
+
+    num = int(input("Enter the number:"))
+    if num < 0:
+        print("The number is a positive number: ",num)
+    else:
+        print("The number is a negative number",num)
